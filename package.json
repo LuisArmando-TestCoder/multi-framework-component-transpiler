@@ -1,6 +1,6 @@
 {
   "name": "multi-framework-component-transpiler",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Transpile components to multiple frameworks",
   "main": "index.js",
   "bin": {
