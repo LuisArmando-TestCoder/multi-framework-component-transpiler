@@ -1,0 +1,40 @@
+{
+  "name": "multi-framework-component-transpiler",
+  "version": "1.0.0",
+  "description": "Transpile components to multiple frameworks",
+  "main": "index.js",
+  "bin": {
+    "multi-transpile": "./bin/multi-transpile.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "transpiler",
+    "multi-framework",
+    "components",
+    "vue",
+    "react",
+    "svelte",
+    "angular",
+    "vanilla-js",
+    "typescript"
+  ],
+  "author": "latestcoder",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisArmando-TestCoder/multi-framework-component-transpiler.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuisArmando-TestCoder/multi-framework-component-transpiler/issues"
+  },
+  "homepage": "https://github.com/LuisArmando-TestCoder/multi-framework-component-transpiler#readme",
+  "dependencies": {
+    "@babel/generator": "^7.26.2",
+    "@babel/parser": "^7.26.2",
+    "@babel/traverse": "^7.25.9",
+    "svelte": "^5.2.7",
+    "vue-template-compiler": "^2.7.16"
+  }
+}
